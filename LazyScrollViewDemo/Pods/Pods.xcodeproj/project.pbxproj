@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046448634CDCA2BBA8695ADC95FA4B65 /* TMMuiRectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B849481A2E3959251A6EE01A9A48F3 /* TMMuiRectModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		26235A9516863276F7DE876C38BBF5A9 /* LazyScroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A43747903A2E0CFD7415DD57CA19DC1E /* LazyScroll-dummy.m */; };
+		3353CFF57C34B39DA6B85E8680C1E333 /* Pods-LazyScrollViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B01F8C92B83E981B3057D79D55A5CEA /* Pods-LazyScrollViewDemo-dummy.m */; };
+		3C782866593769727BCBEC9268622732 /* TMMuiLazyScrollViewCellProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E2CAAE0656536E37B298AD77A4B2A2 /* TMMuiLazyScrollViewCellProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D5B6DE75519F0BC82A0A54ED7F2EA01 /* TMMuiRectModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F6B9F81FF8E6217A6FFF67D4184677CB /* TMMuiRectModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47DEB59E5C832FC4E54A4E856951B856 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4A3EB28EF6A3BB4007D672FE8CC126A9 /* TMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D70C61309A13950A2962630BAC9E65 /* TMUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5AEC6867BA6464C91009617BAE5B6FC3 /* TMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A91773118625EAFC44868804D13926D /* TMUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7206FC9713DC6085AD1FE4D30EB8DBB2 /* TMMuiLazyScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7487CEEE5D716CD5AE7828B4E8EDD741 /* TMMuiLazyScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F5625E257B08FE45C5EB43B69E267D2 /* TMMuiLazyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD89699ECE8FE1947891A8C56348F74 /* TMMuiLazyScrollView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		88D3FE30088A169419D026AF445207AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AE05D10983624F3A40830F3C1DD3EBED /* TMUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8449ABE403B068EAFC019A7AC242F9 /* TMUtils-dummy.m */; };
+		DD2EA800D867C85D6DB51F68F0FD0DD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7B01C704191CC5B91CB23245121CF08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 984F40ADA8AE8F589585E950DD258474;
+			remoteInfo = TMUtils;
+		};
+		DAF866F460331FC135C3EEE8592D7DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 984F40ADA8AE8F589585E950DD258474;
+			remoteInfo = TMUtils;
+		};
+		FA549CF79B5D9E149CA843FA86E579E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2FCC056753EE0D138A7287AD77E990A;
+			remoteInfo = LazyScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0069A90D560E5E1CB71C883BE9658376 /* TMUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMUtils.xcconfig; sourceTree = "<group>"; };
+		0A7D4A654D94AD6CEE62AE97D027A1B8 /* Pods-LazyScrollViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LazyScrollViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		180C968C3700BD1E1B622E69D76BF525 /* Pods-LazyScrollViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LazyScrollViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		367D5B37D2735417715CB6FC469EF77B /* libLazyScroll.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLazyScroll.a; path = libLazyScroll.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E2CAAE0656536E37B298AD77A4B2A2 /* TMMuiLazyScrollViewCellProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMMuiLazyScrollViewCellProtocol.h; path = LazyScrollView/TMMuiLazyScrollViewCellProtocol.h; sourceTree = "<group>"; };
+		4A91773118625EAFC44868804D13926D /* TMUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUtils.h; path = TMUtils/TMUtils.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7487CEEE5D716CD5AE7828B4E8EDD741 /* TMMuiLazyScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMMuiLazyScrollView.h; path = LazyScrollView/TMMuiLazyScrollView.h; sourceTree = "<group>"; };
+		7D5A714317F09E90EBB8432820F31CB7 /* Pods-LazyScrollViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LazyScrollViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		90B849481A2E3959251A6EE01A9A48F3 /* TMMuiRectModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMMuiRectModel.m; path = LazyScrollView/TMMuiRectModel.m; sourceTree = "<group>"; };
+		92E5B4614165C5E7F94790A4081E9060 /* libPods-LazyScrollViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LazyScrollViewDemo.a"; path = "libPods-LazyScrollViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B01F8C92B83E981B3057D79D55A5CEA /* Pods-LazyScrollViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LazyScrollViewDemo-dummy.m"; sourceTree = "<group>"; };
+		9B8449ABE403B068EAFC019A7AC242F9 /* TMUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TMUtils-dummy.m"; sourceTree = "<group>"; };
+		9BD89699ECE8FE1947891A8C56348F74 /* TMMuiLazyScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMMuiLazyScrollView.m; path = LazyScrollView/TMMuiLazyScrollView.m; sourceTree = "<group>"; };
+		9E8F773C08A0C5863E0986E2F2A4D486 /* Pods-LazyScrollViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LazyScrollViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2D70C61309A13950A2962630BAC9E65 /* TMUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUtils.m; path = TMUtils/TMUtils.m; sourceTree = "<group>"; };
+		A43747903A2E0CFD7415DD57CA19DC1E /* LazyScroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LazyScroll-dummy.m"; sourceTree = "<group>"; };
+		ABD3135CE99AC24BC3BD3A7979F76C1D /* Pods-LazyScrollViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LazyScrollViewDemo-resources.sh"; sourceTree = "<group>"; };
+		E1D9A894174E6F7A9E131E22F003805D /* libTMUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTMUtils.a; path = libTMUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CEDA6B97BEC35A22C140CA677B4053 /* TMUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMUtils-prefix.pch"; sourceTree = "<group>"; };
+		F4E15D02903E1FA8848D1AD77FC28804 /* Pods-LazyScrollViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LazyScrollViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F6B9F81FF8E6217A6FFF67D4184677CB /* TMMuiRectModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMMuiRectModel.h; path = LazyScrollView/TMMuiRectModel.h; sourceTree = "<group>"; };
+		F9384138804AAC93958B40481F872BF8 /* LazyScroll.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LazyScroll.xcconfig; sourceTree = "<group>"; };
+		FF6E2274244B3E9E3B408819B7E9C4C9 /* LazyScroll-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LazyScroll-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4523F8784FA07EDB61BA6EDC29B2885F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2EA800D867C85D6DB51F68F0FD0DD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D8E5D00FFDAFE34BBE64F34ACF25A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DEB59E5C832FC4E54A4E856951B856 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2D8F705B711B2FC48FB122D312691A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D3FE30088A169419D026AF445207AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E796534DD5415347B65B094CC3A51C5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C95FDF0A840E47745F1DAE8A043BB /* LazyScroll */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		31C165FB88278669FDAD65D3AA2F6F5E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0069A90D560E5E1CB71C883BE9658376 /* TMUtils.xcconfig */,
+				9B8449ABE403B068EAFC019A7AC242F9 /* TMUtils-dummy.m */,
+				F1CEDA6B97BEC35A22C140CA677B4053 /* TMUtils-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TMUtils";
+			sourceTree = "<group>";
+		};
+		5B889FD2BF5843013FBCBB480D7B5334 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9384138804AAC93958B40481F872BF8 /* LazyScroll.xcconfig */,
+				A43747903A2E0CFD7415DD57CA19DC1E /* LazyScroll-dummy.m */,
+				FF6E2274244B3E9E3B408819B7E9C4C9 /* LazyScroll-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "LazyScrollViewDemo/Pods/Target Support Files/LazyScroll";
+			sourceTree = "<group>";
+		};
+		676F148A2323674AD3D8A6862875348E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				907608182E89B5E170AA35BB3A1FE374 /* TMUtils */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0E796534DD5415347B65B094CC3A51C5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				676F148A2323674AD3D8A6862875348E /* Pods */,
+				BA05F619A30AC9A3FEE6706023189C65 /* Products */,
+				B8993EF54C5164195ABCE3E07C98671D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		907608182E89B5E170AA35BB3A1FE374 /* TMUtils */ = {
+			isa = PBXGroup;
+			children = (
+				4A91773118625EAFC44868804D13926D /* TMUtils.h */,
+				A2D70C61309A13950A2962630BAC9E65 /* TMUtils.m */,
+				31C165FB88278669FDAD65D3AA2F6F5E /* Support Files */,
+			);
+			name = TMUtils;
+			path = TMUtils;
+			sourceTree = "<group>";
+		};
+		A249AB458429833707CAF18FAE0EF82E /* Pods-LazyScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				180C968C3700BD1E1B622E69D76BF525 /* Pods-LazyScrollViewDemo-acknowledgements.markdown */,
+				9E8F773C08A0C5863E0986E2F2A4D486 /* Pods-LazyScrollViewDemo-acknowledgements.plist */,
+				9B01F8C92B83E981B3057D79D55A5CEA /* Pods-LazyScrollViewDemo-dummy.m */,
+				7D5A714317F09E90EBB8432820F31CB7 /* Pods-LazyScrollViewDemo-frameworks.sh */,
+				ABD3135CE99AC24BC3BD3A7979F76C1D /* Pods-LazyScrollViewDemo-resources.sh */,
+				F4E15D02903E1FA8848D1AD77FC28804 /* Pods-LazyScrollViewDemo.debug.xcconfig */,
+				0A7D4A654D94AD6CEE62AE97D027A1B8 /* Pods-LazyScrollViewDemo.release.xcconfig */,
+			);
+			name = "Pods-LazyScrollViewDemo";
+			path = "Target Support Files/Pods-LazyScrollViewDemo";
+			sourceTree = "<group>";
+		};
+		B8993EF54C5164195ABCE3E07C98671D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A249AB458429833707CAF18FAE0EF82E /* Pods-LazyScrollViewDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA05F619A30AC9A3FEE6706023189C65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				367D5B37D2735417715CB6FC469EF77B /* libLazyScroll.a */,
+				92E5B4614165C5E7F94790A4081E9060 /* libPods-LazyScrollViewDemo.a */,
+				E1D9A894174E6F7A9E131E22F003805D /* libTMUtils.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE2C95FDF0A840E47745F1DAE8A043BB /* LazyScroll */ = {
+			isa = PBXGroup;
+			children = (
+				7487CEEE5D716CD5AE7828B4E8EDD741 /* TMMuiLazyScrollView.h */,
+				9BD89699ECE8FE1947891A8C56348F74 /* TMMuiLazyScrollView.m */,
+				48E2CAAE0656536E37B298AD77A4B2A2 /* TMMuiLazyScrollViewCellProtocol.h */,
+				F6B9F81FF8E6217A6FFF67D4184677CB /* TMMuiRectModel.h */,
+				90B849481A2E3959251A6EE01A9A48F3 /* TMMuiRectModel.m */,
+				5B889FD2BF5843013FBCBB480D7B5334 /* Support Files */,
+			);
+			name = LazyScroll;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33D717827AAA05304F5C4694408A3F21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7206FC9713DC6085AD1FE4D30EB8DBB2 /* TMMuiLazyScrollView.h in Headers */,
+				3C782866593769727BCBEC9268622732 /* TMMuiLazyScrollViewCellProtocol.h in Headers */,
+				3D5B6DE75519F0BC82A0A54ED7F2EA01 /* TMMuiRectModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EED3850F7CC36555CAE528765A29FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEC6867BA6464C91009617BAE5B6FC3 /* TMUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		143AC273AC76E2B9E8AAEB4E7436E04C /* Pods-LazyScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1580C64B6D47124882B62D89A4EED8C /* Build configuration list for PBXNativeTarget "Pods-LazyScrollViewDemo" */;
+			buildPhases = (
+				8BEFC77D61DC3FCB74DF1921978ED0F0 /* Sources */,
+				91D8E5D00FFDAFE34BBE64F34ACF25A5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F65CCE4807CB20D31B5607719CEBC5C2 /* PBXTargetDependency */,
+				96333DBB1CE75C6BD11BF9AFDD9F8630 /* PBXTargetDependency */,
+			);
+			name = "Pods-LazyScrollViewDemo";
+			productName = "Pods-LazyScrollViewDemo";
+			productReference = 92E5B4614165C5E7F94790A4081E9060 /* libPods-LazyScrollViewDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		984F40ADA8AE8F589585E950DD258474 /* TMUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E540E4D2C06C9D80002B396F7AFD56C /* Build configuration list for PBXNativeTarget "TMUtils" */;
+			buildPhases = (
+				466097BBD89540DA149FC0C7AC5FD8B7 /* Sources */,
+				FA2D8F705B711B2FC48FB122D312691A /* Frameworks */,
+				C7EED3850F7CC36555CAE528765A29FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMUtils;
+			productName = TMUtils;
+			productReference = E1D9A894174E6F7A9E131E22F003805D /* libTMUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F2FCC056753EE0D138A7287AD77E990A /* LazyScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F496BC189E2291084723B8B59FD820 /* Build configuration list for PBXNativeTarget "LazyScroll" */;
+			buildPhases = (
+				4FC7A555174036F9427EDA2524C871D4 /* Sources */,
+				4523F8784FA07EDB61BA6EDC29B2885F /* Frameworks */,
+				33D717827AAA05304F5C4694408A3F21 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82D8BCC7C0D3D99259282F2AA78CE21E /* PBXTargetDependency */,
+			);
+			name = LazyScroll;
+			productName = LazyScroll;
+			productReference = 367D5B37D2735417715CB6FC469EF77B /* libLazyScroll.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BA05F619A30AC9A3FEE6706023189C65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2FCC056753EE0D138A7287AD77E990A /* LazyScroll */,
+				143AC273AC76E2B9E8AAEB4E7436E04C /* Pods-LazyScrollViewDemo */,
+				984F40ADA8AE8F589585E950DD258474 /* TMUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466097BBD89540DA149FC0C7AC5FD8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE05D10983624F3A40830F3C1DD3EBED /* TMUtils-dummy.m in Sources */,
+				4A3EB28EF6A3BB4007D672FE8CC126A9 /* TMUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC7A555174036F9427EDA2524C871D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26235A9516863276F7DE876C38BBF5A9 /* LazyScroll-dummy.m in Sources */,
+				7F5625E257B08FE45C5EB43B69E267D2 /* TMMuiLazyScrollView.m in Sources */,
+				046448634CDCA2BBA8695ADC95FA4B65 /* TMMuiRectModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFC77D61DC3FCB74DF1921978ED0F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3353CFF57C34B39DA6B85E8680C1E333 /* Pods-LazyScrollViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82D8BCC7C0D3D99259282F2AA78CE21E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TMUtils;
+			target = 984F40ADA8AE8F589585E950DD258474 /* TMUtils */;
+			targetProxy = B7B01C704191CC5B91CB23245121CF08 /* PBXContainerItemProxy */;
+		};
+		96333DBB1CE75C6BD11BF9AFDD9F8630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TMUtils;
+			target = 984F40ADA8AE8F589585E950DD258474 /* TMUtils */;
+			targetProxy = DAF866F460331FC135C3EEE8592D7DC9 /* PBXContainerItemProxy */;
+		};
+		F65CCE4807CB20D31B5607719CEBC5C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LazyScroll;
+			target = F2FCC056753EE0D138A7287AD77E990A /* LazyScroll */;
+			targetProxy = FA549CF79B5D9E149CA843FA86E579E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15434A04F0C5B1BDDDA401CB9DCC2AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9384138804AAC93958B40481F872BF8 /* LazyScroll.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LazyScroll/LazyScroll-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		765B353BDBE8B0D2DBACA46565728249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0069A90D560E5E1CB71C883BE9658376 /* TMUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TMUtils/TMUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79B2A1176BC51D579CC35F20DD8FEA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E15D02903E1FA8848D1AD77FC28804 /* Pods-LazyScrollViewDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BEB4637A7F8EF10F70DD625A47F28B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0069A90D560E5E1CB71C883BE9658376 /* TMUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TMUtils/TMUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		970F59DEBEBF5D5911C9607B58581936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7D4A654D94AD6CEE62AE97D027A1B8 /* Pods-LazyScrollViewDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DF2495BDF59A9ABB79623157A532A9B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9384138804AAC93958B40481F872BF8 /* LazyScroll.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LazyScroll/LazyScroll-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00F496BC189E2291084723B8B59FD820 /* Build configuration list for PBXNativeTarget "LazyScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15434A04F0C5B1BDDDA401CB9DCC2AFD /* Debug */,
+				DF2495BDF59A9ABB79623157A532A9B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E540E4D2C06C9D80002B396F7AFD56C /* Build configuration list for PBXNativeTarget "TMUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEB4637A7F8EF10F70DD625A47F28B9 /* Debug */,
+				765B353BDBE8B0D2DBACA46565728249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1580C64B6D47124882B62D89A4EED8C /* Build configuration list for PBXNativeTarget "Pods-LazyScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B2A1176BC51D579CC35F20DD8FEA16 /* Debug */,
+				970F59DEBEBF5D5911C9607B58581936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

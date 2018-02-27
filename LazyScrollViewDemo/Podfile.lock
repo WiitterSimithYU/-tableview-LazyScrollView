@@ -1,0 +1,19 @@
+PODS:
+  - LazyScroll (1.0.0):
+    - TMUtils (~> 1.0)
+  - TMUtils (1.0.0)
+
+DEPENDENCIES:
+  - LazyScroll (from `../`)
+
+EXTERNAL SOURCES:
+  LazyScroll:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LazyScroll: ff021cf69b5b53c7dac7d65a79ee775175bcc624
+  TMUtils: 2b8964a5ff58183b9bf3cbdf64f89b2e4b2c498d
+
+PODFILE CHECKSUM: 76156d2755250e054ecd52ed884cc811d6ce2a1e
+
+COCOAPODS: 1.3.1
